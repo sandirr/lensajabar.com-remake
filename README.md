@@ -1,4 +1,25 @@
+# lensajabar.com remake
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Start
+
+```
+git clone https://github.com/sandirr/lensajabar.com-remake.git
+cd lensajabar.com-remake
+npm install
+```
+
+## Dependencies
+
+```
+"materialize-css": "^1.0.0"
+"react": "^16.13.1"
+"react-dom": "^16.13.1"
+"react-materialize": "^3.8.3"
+"react-router-dom": "^5.1.2"
+"react-scripts": "3.4.1"
+```
 
 ## Available Scripts
 
@@ -66,3 +87,15 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### Screenshot
+
+![3](https://user-images.githubusercontent.com/50796200/78978396-e1d3c980-7b43-11ea-91a1-a6c30dca2a73.JPG)
+
+<hr/>
+
+![2](https://user-images.githubusercontent.com/50796200/78978401-e5675080-7b43-11ea-9f7f-3d95f0a9e866.JPG)
+
+<hr/>
+
+![1](https://user-images.githubusercontent.com/50796200/78978408-e8fad780-7b43-11ea-89ab-809f7d84fbf2.JPG)
