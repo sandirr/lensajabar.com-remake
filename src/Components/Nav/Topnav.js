@@ -32,7 +32,7 @@ class Topnav extends React.Component {
                 <li style={styles.menuContain}>
                   <div className="blue-text text-darken-2" style={styles.Menu}>
                     <form style={{ cursor: "auto" }}>
-                      <div class="input-field">
+                      <div className="input-field">
                         <input
                           placeholder="Search something..."
                           id="search"
@@ -43,8 +43,8 @@ class Topnav extends React.Component {
                             background: "none",
                           }}
                         />
-                        <label class="label-icon" for="search">
-                          <i class="material-icons blue-text text-darken-2">
+                        <label className="label-icon" htmlFor="search">
+                          <i className="material-icons blue-text text-darken-2">
                             search
                           </i>
                         </label>
@@ -52,15 +52,6 @@ class Topnav extends React.Component {
                     </form>
                   </div>
                 </li>
-                {/* <li style={styles.menuContain}>
-                  <Link
-                    to="/"
-                    className="blue-text text-darken-2"
-                    style={styles.Menu}
-                  >
-                    Berita Jawa Barat
-                  </Link>
-                </li> */}
                 <li>
                   <Link
                     to="/"
@@ -83,11 +74,11 @@ class Topnav extends React.Component {
             </div>
 
             <div
-              class="nav-content secondarynav2 hide-on-med-and-down"
+              className="nav-content secondarynav2 hide-on-med-and-down"
               style={{ display: "none" }}
             >
               <ul
-                class="tabs"
+                className="tabs"
                 style={{ backgroundColor: "rgba(255,255,255,.1)" }}
               >
                 <li className="tab">

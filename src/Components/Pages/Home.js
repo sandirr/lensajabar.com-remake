@@ -37,8 +37,8 @@ class Home extends React.Component {
               style={{ marginTop: 12 }}
             >
               <ul className="slides">
-                {this.state.headlines.map((headline) => (
-                  <li>
+                {this.state.headlines.map((headline, index) => (
+                  <li key={index}>
                     <img alt="lensajabar" src={headline.urlToImage} />
                     <div className="caption left-align">
                       <h5
@@ -58,15 +58,15 @@ class Home extends React.Component {
 
             {/* konten */}
             <div>
-              <div class="col s12 m12" style={{ margin: 0, padding: 0 }}>
+              <div className="col s12 m12" style={{ margin: 0, padding: 0 }}>
                 {this.state.articles.map((article, index) => (
                   <div
-                    class="card horizontal"
+                    className="card horizontal"
                     style={{ margin: 0, padding: 0 }}
                     key={index}
                   >
-                    <div class="card-stacked">
-                      <div class="card-content">
+                    <div className="card-stacked">
+                      <div className="card-content">
                         <h5
                           style={{
                             padding: 0,
@@ -104,7 +104,7 @@ class Home extends React.Component {
                         alt="lensajabar"
                       />
                       <div
-                        class="sharethis-inline-share-buttons"
+                        className="sharethis-inline-share-buttons"
                         style={{ position: "absolute", bottom: 5, zIndex: 2 }}
                       ></div>
                     </div>

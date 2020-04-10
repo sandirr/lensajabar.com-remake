@@ -54,15 +54,15 @@ export default class RightBar extends React.Component {
               />
             </div>
 
-            <ul class="collection" style={{ borderRadius: "10px" }}>
-              <li class="collection-item blue darken-2">
+            <ul className="collection" style={{ borderRadius: "10px" }}>
+              <li className="collection-item blue darken-2">
                 <h6 style={{ fontWeight: "bold" }} className="white-text">
                   Berita Terbaru
                 </h6>
               </li>
-              {this.state.articles.map((article) => (
-                <li class="collection-item avatar transparent">
-                  <img src={article.urlToImage} alt="..." class="circle" />
+              {this.state.articles.map((article, index) => (
+                <li className="collection-item avatar transparent" key={index}>
+                  <img src={article.urlToImage} alt="..." className="circle" />
                   <p
                     className="blue-text text-darken-2"
                     style={{ cursor: "pointer" }}
